@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(238, 196, 11);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-brand:hover{
+    color: orange;
+}
+.nav-item a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color: rgb(238, 196, 11);
+}
+.far, .fab{
+    color: rgb(238, 196, 11);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.main{
+    background: url(./images/AnimeLogo.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 40%;
+    color: white;
+    outline: none;
+    border: none;
+    background: rgb(238, 196, 11);
+    font-weight: bold; 
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.btn2:hover{
+    border: 1px solid rgb(238, 196, 11);
+    background: transparent;
+    color: rgb(238, 196, 11);
+    transition: all 0.4s;
+}

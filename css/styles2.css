@@ -84,6 +84,43 @@
     transition: all 0.4s;
 
 }
+.btnd{
+    position: absolute;
+    top: 90%;
+    left: 20%; 
+    transform: translate(-50%, -50%);
+    height: 53px;
+    width: 40%;
+    color: rgb(238, 196, 11);
+    border: none;
+    outline: none;
+    background: rgb(18, 17, 17);
+    cursor: all 0.4s;
+}
+.btnd:hover{
+    background: rgb(238, 196, 11);
+    color: white;
+    transition: all 0.4s;
+
+}
+.pnext, .pback{
+    transform: translate(-50%, -50%)
+    height: 53px;
+    width: 30%;
+    color: black;
+    border: none;
+    outline: none;
+    background: rgb(238, 196, 11);
+    cursor: all 0.4s;
+}
+.pnext:hover, .pback:hover{
+    background: black;
+    color: white;
+    transition: all 0.4s;
+}
+
+
+
 .zoom-n-rotate{
     border-radius: 0;
     outline: none;

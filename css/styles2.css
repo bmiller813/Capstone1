@@ -14,7 +14,7 @@
 .nav-item a{
     margin-right: 15px;
     margin-left: 15px;
-    color: white;
+    color: rgb(238, 196, 11);
     text-transform: uppercase;
     font-family: sans-serif;
 }
@@ -26,6 +26,12 @@
     font-size: 1.1rem;
     cursor: pointer;
 }
+.fab:hover{
+    color: orange;
+}
+.far:hover{
+    color: orange;
+}
 .main{
     background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/421744c5-139a-44a6-aaea-560db4b7b68a/debnpgr-35858bea-f5aa-4504-96f9-01b179e694b3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQyMTc0NGM1LTEzOWEtNDRhNi1hYWVhLTU2MGRiNGI3YjY4YVwvZGVibnBnci0zNTg1OGJlYS1mNWFhLTQ1MDQtOTZmOS0wMWIxNzllNjk0YjMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gtspxqSVU7iFItSopUBY_Qivv8-29vKbSmkLRLzFt4Q)no-repeat;
     background-size: cover;
@@ -35,17 +41,17 @@
 .main p{
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: white;
+    color: rgb(238, 196, 11);
 }
 .main h1{
     font-size: 5rem;
     font-weight: 900;
-    color: white;
+    color: rgb(238, 196, 11);
 }
 .btn2{
     height: 45px;
     width: 40%;
-    color: white;
+    color: black;
     outline: none;
     border: none;
     background: rgb(238, 196, 11);
@@ -66,10 +72,10 @@
     transform: translate(-50%, -50%);
     height: 53px;
     width: 40%;
-    color: black;
+    color: rgb(238, 196, 11);
     border: none;
     outline: none;
-    background: white;
+    background: rgb(18, 17, 17);
     cursor: all 0.4s;
 }
 .btnc:hover{
@@ -93,6 +99,16 @@
 .next{
     background: rgb(238, 196, 11);
 }
+.subtitle{
+    color:rgb(238, 196, 11);
+}
+.subtitle:hover{
+    cursor:pointer;
+    color: orange;
+}
+.nav-link:hover{
+    color: orange;
+}
 /* ====================*/
 .trending h1{
     font-weight: 800;
@@ -112,6 +128,9 @@
     top: 15%;
     left: 85%;
     transform: translate(-50%, -50%);
+}
+h1{
+    color:rgb(238, 196, 11);
 }
 /*=========New Releases========*/
 .circle1{
@@ -146,6 +165,16 @@
 .icon{
     color:rgb(238, 196, 11);
     font-size: 2.5rem;
+}
+.control{
+    background-color: rgb(238, 196, 11);
+    height: 50px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: rgb(238, 196, 11);
+    font-weight: bold;
+    color:black;
 }
 /*=====================Bottom=======================*/
 .news{
@@ -197,5 +226,8 @@
 }
 .Copy{
     color:rgb(53, 49, 49);
-    
+
+}
+.filter{
+    background: #0a0a0a;
 }

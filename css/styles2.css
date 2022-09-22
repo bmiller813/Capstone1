@@ -27,10 +27,10 @@
     cursor: pointer;
 }
 .main{
-    background: url(./images/AnimeLogo.jpg)no-repeat;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/421744c5-139a-44a6-aaea-560db4b7b68a/debnpgr-35858bea-f5aa-4504-96f9-01b179e694b3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQyMTc0NGM1LTEzOWEtNDRhNi1hYWVhLTU2MGRiNGI3YjY4YVwvZGVibnBnci0zNTg1OGJlYS1mNWFhLTQ1MDQtOTZmOS0wMWIxNzllNjk0YjMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gtspxqSVU7iFItSopUBY_Qivv8-29vKbSmkLRLzFt4Q)no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 .main p{
     font-size: 1.5rem;
@@ -112,4 +112,42 @@
     top: 15%;
     left: 85%;
     transform: translate(-50%, -50%);
+}
+/*=========New Releases========*/
+.circle1{
+    height: 70px;
+    width: 70px;
+    background: rgb(238, 196, 11);
+    color: black;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.mix:hover .circle1{
+    transition: all 0.5s;
+    opacity: 1;
+}
+.circle1:hover{
+    background: black;
+    color: white;
+
+}
+.iconic p{
+    text-align: justify;
+    font-family: 'prompt' , sans-serif;
+}
+.icon{
+    color:rgb(238, 196, 11);
+    font-size: 2.5rem;
+}
+/*=====================Bottom=======================*/
+.news{
+    background: rgb(238, 196, 11);
 }

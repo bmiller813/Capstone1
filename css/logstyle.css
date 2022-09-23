@@ -1,0 +1,181 @@
+
+body{
+    background: url(https://i.pinimg.com/originals/cd/73/c9/cd73c920677c55c9139b58b1ca2ae0b3.gif);
+    background-size: cover;
+}
+
+
+
+
+.try{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: rgb(238, 196, 11);
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: black;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: black;
+    color: rgb(238, 196, 11);
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#usrclr, #pswclr, #logclr {
+    color:black;
+}
+
+
+
+/* ===================nav===============*/
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(238, 196, 11);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-brand:hover{
+    color: rgb(36, 32, 32);
+}
+.nav-item a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: rgb(238, 196, 11);
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color: rgb(36, 32, 32);
+}
+.far, .fab{
+    color: rgb(238, 196, 11);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.fab:hover{
+    color:rgb(36, 32, 32);
+}
+.far:hover{
+    color:rgb(36, 32, 32);
+}
+/*=============Footer==============*/
+.news{
+    background: black;
+    font-family: 'prompt' , sans-serif;
+  }
+  .news a{
+    text-decoration: none;
+    color: rgb(238, 196, 11);
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  .news a:hover{
+    color: white;
+    padding-left: 5px;
+    
+  }
+  .btns{
+    height: 50px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: rgb(238, 196, 11);
+    font-weight: bold;
+    color:black;
+  }
+  .sub{
+    height: 50px;
+    width: 70%;
+    background: transparent;
+    outline: none;
+    border: 1px solid black;
+    color: rgb(238, 196, 11);
+  }
+  .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: rgb(238, 196, 11);
+    background: rgb(53, 49, 49);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  .circle:hover{
+    background: rgb(238, 196, 11);
+    color: rgb(53, 49, 49);
+  }
+  .Copy{
+    color:rgb(53, 49, 49);
+  
+  }
+  .filter{
+    background: #0a0a0a;
+  }
+  h3{
+    color: rgb(238, 196, 11);
+  }
+  p{
+    color: rgb(238, 196, 11);
+  }
+  /*================Reg===========================*/
+  #fname, #email, #pwd, #pwdv{
+    width: 25%;
+  }
+  input[type=password] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  label, h4{
+    color: rgb(238, 196, 11);
+  }
+  

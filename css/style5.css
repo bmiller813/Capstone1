@@ -4,13 +4,13 @@
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     margin: 0 -16px;
-    background: rgb(238, 196, 11);
+    /*background: rgb(238, 196, 11);*/
   }
   
   .col-25 {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
-    background: rgb(238, 196, 11);
+    /*background: rgb(238, 196, 11);*/
   }
   
   .col-50 {
@@ -27,13 +27,18 @@
   .col-50,
   .col-75 {
     padding: 0 16px;
+
   }
   
   .container5 {
-    background-color: rgb(238, 196, 11);
+    /*background-color: rgb(238, 196, 11);*/
     padding: 5px 20px 15px 20px;
     border: 1px solid black;
     border-radius: 3px;
+    background: url(https://64.media.tumblr.com/549e347324a3d476334f3d4fd3c1cafd/6e7131e9aefc8a79-72/s540x810/08be8b0f60c2cd6e6b1878be7c7477157a79bc63.gif)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 72vh;
   }
   
   input[type=text] {
@@ -56,19 +61,20 @@
   }
   
   .btn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px;
-    margin: 10px 0;
+    background-color: rgb(238, 196, 11);
+    color: black;
+    padding: 7px;
+    margin: 39px 0;
     border: none;
-    width: 100%;
+    width: 20%;
     border-radius: 3px;
     cursor: pointer;
     font-size: 17px;
   }
   
   .btn:hover {
-    background-color: #45a049;
+    background-color: black;
+    color: white;
   }
   
   span.price {
@@ -183,3 +189,16 @@ p{
   color: rgb(238, 196, 11);
 }
 /*================Reg===========================*/
+#fname, #email, #pwd, #pwdv{
+  width: 25%;
+}
+input[type=password] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+label, h4{
+  color: rgb(238, 196, 11);
+}
